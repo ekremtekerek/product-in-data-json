@@ -1,0 +1,175 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #ffffff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper-container,
+.swiper-container-one,
+.swiper-container-two {
+  width:100% ;
+    margin-bottom: 30px;
+}
+
+.swiper-container-one,
+.swiper-container-two {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f7f7f7;
+  border-radius: 2px;
+  height: 400px;
+  text-align: center;
+}
+
+
+
+.showcaseImg {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.showcaseImg:hover {
+    opacity: 0.7;
+}
+
+.showcaseBadge {
+    position: absolute;
+    left: 0;
+    top:20px
+}
+
+.productNeu {
+    font-weight: 700;
+    color: #ffffff;
+    background: #2a2b2d;
+    text-align: center;
+    line-height: 34px;
+    padding: 0 7px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.productRebate {
+    color: #ffffff;
+    background: #c90f26;
+    text-align: center;
+    line-height: 34px;
+    padding: 0 7px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.productLike {
+    color: #553a4d;
+    background: #ffffff url(../img/like-icon.png) no-repeat 9px;
+    text-align: center;
+    line-height: 34px;
+    padding: 0 7px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-indent: 20px;
+    min-width: 50px;
+}
+
+.showcaseTitle a {
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0 10px;
+    height: 65px;   
+    color: #000;
+    display: block;
+}
+
+.showcaseTitle a:hover {
+    text-decoration: none;
+    color: #c90f26;
+}
+
+.showcaseParams {
+    color: #b6b6b6;
+    font-weight: 300;
+    font-size: 12px;
+    height: 55px;
+    padding: 0 15px;
+}
+
+.showcasePrice {
+    margin-bottom: 10px;
+}
+
+.showcasePriceText {
+    font-weight: 700;
+}
+
+.showcaseOldPriceText {
+    color: #989898;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.showcaseBasePrice {
+    color: #b6b6b6;
+    font-weight: 300;
+    font-size: 11px;
+    height: 55px;  
+}
+
+.swiper-container h1,
+.swiper-container-one h1,
+.swiper-container-two h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 29px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #474747;
+    --swiper-navigation-size: 20px;
+}
+
+.swiper-button-next {
+    right:0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1190px!important;
+}
+.swiper-container, .swiper-container-one, .swiper-container-two {
+    width: calc(100% + 34px);
+    padding:0 17px!important;
+}
+
+}
+
